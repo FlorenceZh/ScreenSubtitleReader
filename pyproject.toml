@@ -16,7 +16,7 @@ dependencies = [
     "tornado>=6.5.5",
 ]
 [project.scripts]
-scsrt = "src.core.main:main"
+scsrt = "core.main:main"
 
 [tool.uv]
 package = true
