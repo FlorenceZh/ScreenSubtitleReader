@@ -9,32 +9,18 @@
             "type": "debugpy",
             "request": "launch",
             "module": "core.speaker",
-            "envFile": "${workspaceFolder}/.env",
-            "cwd": "${workspaceFolder}/src"
         },
                 {
             "name": "Python 调试程序: main模块",
             "type": "debugpy",
             "request": "launch",
             "module": "core.main",
-            "envFile": "${workspaceFolder}/.env",
-            "cwd": "${workspaceFolder}/src"
         },
         {
             "name": "Python 调试程序: OCR模块",
             "type": "debugpy",
             "request": "launch",
             "module": "core.OCR",
-            "envFile": "${workspaceFolder}/.env",
-            "cwd": "${workspaceFolder}/src"
         },
-        {
-            "name": "Python 调试程序: 语义过滤模块",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "meaningful_judger.main",
-            "envFile": "${workspaceFolder}/.env",
-            "cwd": "${workspaceFolder}/src"
-        }
     ]
 }

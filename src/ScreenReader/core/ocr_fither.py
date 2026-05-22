@@ -1,12 +1,8 @@
 from typing import List
 
-from screen_cap_OCR import OcrHandle
+from ScreenReader.ocr_module import OcrHandle
 from PIL import Image
-import cv2
 import time
-import numpy as np
-
-import numpy as np
 
 class OCRItem:
     """封装每条 OCR 识别结果的对象"""
